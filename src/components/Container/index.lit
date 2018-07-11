@@ -1,0 +1,17 @@
+<style lang="postcss">
+  @import './style';
+</style>
+
+<template>
+  <slot></slot>
+</template>
+
+<script>
+  export default class Container {
+    constructor() {
+      super()
+    }
+  }
+
+  customElements.define('app-container', Container);
+</script>

@@ -1,0 +1,49 @@
+{
+	"name": "polymer-components",
+	"version": "0.0.0",
+	"description": "Polymer Components",
+	"license": "MIT",
+	"repository": "martinsbicudo/polymer-components",
+	"author": {
+		"name": "martinsbicudo",
+		"email": "victor_bicudo@outlook.com"
+	},
+	"main": "src/index.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"start": "node_modules/.bin/webpack-dev-server --open",
+		"build": "node_modules/.bin/webpack"
+	},
+	"files": [
+		"src"
+	],
+	"keywords": [
+		"polymer",
+		"web-components"
+	],
+	"devDependencies": {
+		"@babel/core": "7.0.0-beta.47",
+		"@babel/preset-env": "7.0.0-beta.47",
+		"@polymer/lit-element": "0.5.1",
+		"@webcomponents/webcomponentsjs": "2.0.2",
+		"babel-loader": "^8.0.0-beta",
+		"cssnano": "4.0.1",
+		"html-loader": "0.5.5",
+		"html-webpack-plugin": "3.2.0",
+		"lit-loader": "0.0.1",
+		"postcss-easy-import": "3.0.0",
+		"postcss-preset-env": "5.2.1",
+		"precss": "3.1.2",
+		"stylus": "0.54.5",
+		"stylus-loader": "3.0.2",
+		"webpack": "4.8.3",
+		"webpack-cli": "2.1.3",
+		"webpack-dev-server": "3.1.4"
+	},
+	"dependencies": {
+		"css-loader": "1.0.0",
+		"style-loader": "0.21.0"
+	}
+}
